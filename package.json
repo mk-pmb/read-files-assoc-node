@@ -1,0 +1,29 @@
+{
+  "name": "read-files-assoc",
+  "version": "0.0.1",
+  "description": "Read multiple files, deliver their contents in a dictionary with keys defaulting to the filenames.",
+  "main": "rfa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/read-files-assoc-node.git"
+  },
+  "keywords": [
+    "read",
+    "multiple",
+    "file",
+    "contents",
+    "dictionary",
+    "assoc",
+    "keys",
+    "glob"
+  ],
+  "author": "M.K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk-pmb/read-files-assoc-node/issues"
+  },
+  "homepage": "https://github.com/mk-pmb/read-files-assoc-node#readme"
+}
