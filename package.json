@@ -1,15 +1,6 @@
-{
-  "name": "read-files-assoc",
+{ "name": "read-files-assoc",
   "version": "0.0.1",
   "description": "Read multiple files, deliver their contents in a dictionary with keys defaulting to the filenames.",
-  "main": "rfa.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mk-pmb/read-files-assoc-node.git"
-  },
   "keywords": [
     "read",
     "multiple",
@@ -20,10 +11,29 @@
     "keys",
     "glob"
   ],
-  "author": "M.K.",
-  "license": "ISC",
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/read-files-assoc-node#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/read-files-assoc-node.git"
+  },
   "bugs": {
     "url": "https://github.com/mk-pmb/read-files-assoc-node/issues"
   },
-  "homepage": "https://github.com/mk-pmb/read-files-assoc-node#readme"
+
+  "private": false, "license": "ISC",
+
+  "main": "rfa.js",
+  "bin": { "read-files-assoc-node": "./cli.js" },
+  "scripts": { "test": "nodejs test/all.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {
+    "glob": "^7.0.3"
+  },
+  "devDependencies": { "equal-pmb": "^0.1.0" },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
 }
